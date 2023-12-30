@@ -1,13 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.screen {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.buttons {
+  height: 100%;
+  width: 100%;
+  background-color: #f0e5d3;
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.special-buttons {
+  background-color: rgb(235, 164, 51);
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+  color: white;
+}
+
+.operation-buttons {
+  background-color: rgb(230, 73, 73);
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+  color: white;
+}
+.operation-buttons:hover {
+  transition: 0.2s;
+  background-color: rgb(243, 88, 88);
+}
+.operation-buttons:active {
+  transition: 0.2s;
+  background-color: rgb(243, 88, 88);
+}
+
+.special-buttons:hover {
+  transition: 0.2s;
+  background-color: rgb(241, 181, 85);
+}
+
+.buttons:hover {
+  transition: 0.2s;
+  background-color: white;
 }
